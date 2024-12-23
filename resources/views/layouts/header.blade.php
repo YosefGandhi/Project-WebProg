@@ -21,21 +21,22 @@
                 </li>
                 @if (Route::has('login'))
                     @auth
-                        <li class="nav-item">
-                            <a href="{{ route('logout') }}" class="nav-link">Logout</a>
+                        <li class="nav-item d-flex align-items-center">
+                            <a href="{{ route('profile') }}" class="nav-link d-flex align-items-center">
+                                <i class="bi bi-person-circle fs-4 me-1"></i> Profile
+                            </a>
                         </li>
                     @else
-                        <li class="nav-item">
-                            <a href="{{ route('login') }}" class="nav-link">Login</a>
+                        <li class="nav-item d-flex align-items-center">
+                            <a href="{{ route('login') }}" class="nav-link d-flex align-items-center">
+                                <i class="bi bi-person-circle fs-4 me-1"></i> Login/Register
+                            </a>
                         </li>
-                        @if (Route::has('register'))
-                            <li class="nav-item">
-                                <a href="{{ route('register') }}" class="nav-link">Register</a>
-                            </li>
-                        @endif
                     @endauth
                 @endif
             </ul>
         </div>
     </div>
 </nav>
+
+

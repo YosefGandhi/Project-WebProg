@@ -27,7 +27,7 @@
         <div class="card shadow-sm rounded-3 border-0">
           <div class="card-body text-center">
             <h5 class="card-title"><i class="bi bi-envelope-fill"></i> Email</h5>
-            <p class="card-text">support@sneakersandco.com</p>
+            <p class="card-text">support@calm.com</p>
           </div>
         </div>
       </div>
@@ -37,7 +37,7 @@
         <div class="card shadow-sm rounded-3 border-0">
           <div class="card-body text-center">
             <h5 class="card-title"><i class="bi bi-telephone-fill"></i> Phone</h5>
-            <p class="card-text">+1 234 567 890</p>
+            <p class="card-text">+62 234 567 890</p>
           </div>
         </div>
       </div>
@@ -47,7 +47,7 @@
         <div class="card shadow-sm rounded-3 border-0">
           <div class="card-body text-center">
             <h5 class="card-title"><i class="bi bi-geo-alt-fill"></i> Address</h5>
-            <p class="card-text">123 Sneakers Street, New York, NY</p>
+            <p class="card-text">123 Calm HeadQuarter, New York, NY</p>
           </div>
         </div>
       </div>

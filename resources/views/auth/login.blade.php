@@ -65,6 +65,11 @@
                             </div>
                         </div>
                     </form>
+
+                    <!-- Tambahkan link ke halaman registrasi -->
+                    <div class="text-center mt-3">
+                        <p>Don't have an account yet? <a href="{{ route('register') }}">Register here!</a></p>
+                    </div>
                 </div>
             </div>
         </div>
